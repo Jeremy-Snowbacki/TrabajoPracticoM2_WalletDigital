@@ -1,0 +1,152 @@
+/* Estilos personalizados*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cuerpo principal */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #07e396 0%, #c196eb 100%);
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Tarjeta */
+.card {
+  background-color: white;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezados */
+h1 {
+  color: rgb(6, 69, 108);
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: center;
+}
+h2 {
+  color: black;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+
+/* Botones */
+.btn {
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+
+.btn-primary {
+  background-color: #1b43e1;
+  border-color: black;
+}
+
+.btn-danger {
+  background-color: #f56565;
+  border-color: #f56565;
+}
+
+/* Formularios */
+.form-control, .form-select {
+  border-radius: 8px;
+  border: 2px solid wheat;
+  padding: 12px 15px;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  outline: none;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
+
+/* Listas */
+.list-group-item {
+  border-color: #e2e8f0;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 15px;
+  background-color: #f7fafc;
+}
+
+/* Tabla */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  background-color: #667eea;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f7fafc;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* Alertas */
+.alert {
+  border-radius: 8px;
+  border: none;
+}
+
+.alert-success {
+  background-color: #c6f6d5;
+  color: #22543d;
+}
+
+.alert-danger {
+  background-color: #fed7d7;
+  color: #742a2a;
+}
+
+.alert-info {
+  background-color: #bee3f8;
+  color: #2c5282;
+}
+
+/* Contenedores */
+
+.container {
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Utilidades de espaciado (margen)*/
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+/* Enlace personalizado */
+a {
+  color: #667eea;
+  text-decoration: none;
+}
+
